@@ -8,8 +8,8 @@ This repository contains a template for building a Telegram bot using Python. Th
 - [Installation](#installation)
 - [Project Structure](#project-structure)
   - [app/core](#appcore)
-  - [app/middlewares](#appmiddlewares)
-  - [app/utils](#apputils)
+    - [app/middlewares](#appmiddlewares)
+    - [app/utils](#apputils)
   - [app/handlers](#apphandlers)
     - [admin](#admin)
     - [user](#user)
@@ -50,6 +50,8 @@ Utility functions and configurations are stored in the `utils` directory.
 - `config.py`: Configuration settings for the bot.
 - `example.py`: Example utility function.
 
+---
+
 ### app/handlers
 Handlers are responsible for processing incoming messages and commands from Telegram users. They are organized into subdirectories based on the type of user (admin/user).
 
@@ -65,6 +67,8 @@ User-specific handlers are placed in the `user` directory.
 - `commands/__init__.py`: Initialization script for user commands.
 - `commands/example.py`: Example user command handler.
 
+---
+
 ### app/keyboards
 Keyboards define the layout of buttons that appear in the Telegram chat interface. They are also organized by user type.
 
@@ -78,8 +82,12 @@ User-specific keyboards are placed in the `user` directory.
 - `__init__.py`: Initialization script for the user keyboards.
 - `example.py`: Example user keyboard definition.
 
+---
+
 ### i18n
 The `i18n` directory is used for internationalization, allowing the bot to support multiple languages.
+
+---
 
 ### database
 Database-related files are stored in the `database` directory.
@@ -90,6 +98,8 @@ Requests to the database are organized in the `requests` subdirectory.
 - `user_requests.py`: Functions for making user-related database requests.
 - `models.py`: Database models definitions.
 - `repository.py`: Repository layer for database operations.
+
+---
 
 ### main.py
 The entry point of the application. This file initializes the bot and starts listening for incoming messages.
