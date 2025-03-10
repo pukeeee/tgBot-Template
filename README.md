@@ -22,7 +22,7 @@ This repository contains a template for building a Telegram bot using Python. Th
   - [main.py](#mainpy)
 - [Usage](#usage)
 
-## Installation [[1]]
+## Installation
 To get started with this template, follow these steps:
 
 1. Clone the repository:
@@ -40,12 +40,12 @@ To get started with this template, follow these steps:
 ### app/core
 The `core` directory contains essential components that are used throughout the application. For instance, it may include initialization scripts or core functionalities.
 
-### app/middlewares [[1]]
+### app/middlewares
 Middleware functions can be defined in the `middlewares` directory. These functions are executed before the actual handler functions and can be used for tasks like logging, authentication, etc.
 - `__init__.py`: Initialization script for the middleware package.
 - `example.py`: An example middleware function.
 
-### app/utils [[1]]
+### app/utils
 Utility functions and configurations are stored in the `utils` directory.
 - `config.py`: Configuration settings for the bot.
 - `example.py`: Example utility function.
