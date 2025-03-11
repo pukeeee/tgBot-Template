@@ -106,14 +106,17 @@ Handlers are responsible for processing incoming messages and commands from Tele
 #### admin
 Admin-specific handlers are placed in the `admin` directory.
 - `__init__.py`: Initialization script for the admin handlers.
-- `commands/__init__.py`: Initialization script for admin commands.
-- `commands/example.py`: Example admin command handler.
+- `example.py`: Example admin command handler.
 
 #### user
 User-specific handlers are placed in the `user` directory.
 - `__init__.py`: Initialization script for the user handlers.
-- `commands/__init__.py`: Initialization script for user commands.
-- `commands/example.py`: Example user command handler.
+- `example.py`: Example user command handler.
+
+#### commands
+Command handlers are placed in the commands directory. These handle specific commands for both admin and regular users.
+- `__init__.py`: Initialization script for command handlers.
+- `example.py`: Example command handler.
 
 ---
 
