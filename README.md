@@ -16,7 +16,7 @@ This repository contains a template for building a Telegram bot using Python. Th
   - [app/keyboards](#appkeyboards)
     - [admin](#admin-1)
     - [user](#user-1)
-  - [i18n](#i18n)
+  - [l10n](#l10n)
   - [database](#database)
     - [requests](#requests)
   - [main.py](#mainpy)
