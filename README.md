@@ -20,7 +20,7 @@ This repository contains a template for building a Telegram bot using Python. Th
   - [database](#database)
     - [requests](#requests)
   - [main.py](#mainpy)
-- [Usage](#usage)
+- [Notes and Support](#notes-and-support)
 
 ---
 
@@ -171,8 +171,7 @@ Requests to the database are organized in the `requests` subdirectory.
 ### main.py
 The entry point of the application. This file initializes the bot and starts listening for incoming messages.
 
-## Usage
-To run the bot, simply execute the `main.py` script:
-```bash
-python main.py
-```
+---
+
+## Notes and Support
+If you have any questions, suggestions, or encounter issues while using this bot, feel free to open an issue on the GitHub repository or contact the developer directly. Contributions and feedback are always welcome!
