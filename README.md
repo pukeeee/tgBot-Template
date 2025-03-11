@@ -22,18 +22,33 @@ This repository contains a template for building a Telegram bot using Python. Th
   - [main.py](#mainpy)
 - [Usage](#usage)
 
+---
+
 ## Installation
 To get started with this template, follow these steps:
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/pukeeee/tgBot-Template.git
-   ```
-
-2. Install the required dependencies:
+#### Local Execution
+To run the bot locally:
+1. Install dependencies:  
    ```bash
    pip install -r requirements.txt
    ```
+2. Start the bot:  
+   ```bash
+   python main.py
+   ```
+
+#### Docker Execution
+1. Build the Docker image:  
+   ```bash
+   docker build -t my-telegram-bot .
+   ```
+2. Run the Docker container:  
+   ```bash
+   docker run --name telegram-bot-container my-telegram-bot
+   ```
+
+--- 
 
 ## Project Structure
 ```plaintext
@@ -78,6 +93,7 @@ tgBot-Template/
 │       └── user_requests.py
 │
 ├── .gitignore
+├── Dockerfile
 ├── main.py
 ├── requirements.txt
 └── README.md 
