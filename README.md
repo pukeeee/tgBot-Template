@@ -36,7 +36,7 @@ To get started with this template, follow these steps:
    ```
 
 ## Project Structure
-
+```plaintext
 tgBot-Template/
 ├── app/
 │   ├── core/
@@ -81,7 +81,7 @@ tgBot-Template/
 ├── main.py
 ├── requirements.txt
 └── README.md 
-
+```
 ---
 
 ### app/core
