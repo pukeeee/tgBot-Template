@@ -37,6 +37,53 @@ To get started with this template, follow these steps:
 
 ## Project Structure
 
+tgBot-Template/
+├── app/
+│   ├── core/
+│   │   ├── middlewares/
+│   │   │   ├── __init__.py
+│   │   │   ├── example.py
+│   │   │   └── i10n_middleware.py
+│   │   └── utils/
+│   │       └── config.py
+│   │
+│   ├── handlers/
+│   │   ├── admin/
+│   │   │   ├── __init__.py
+│   │   │   └── example.py
+│   │   ├── user/
+│   │   │   ├── __init__.py
+│   │   │   └── example.py
+│   │   └── commands/
+│   │       ├── __init__.py
+│   │       └── example.py
+│   │
+│   ├── keyboards/
+│   │   ├── admin/
+│   │   │   ├── __init__.py
+│   │   │   └── example.py
+│   │   └── user/
+│   │       ├── __init__.py
+│   │       └── example.py
+│   │
+│   └── l10n/
+│       ├── en.ftl
+│       └── l10n.py
+│
+├── database/
+│   ├── models.py
+│   ├── repository.py
+│   └── requests/
+│       ├── admin_requests.py
+│       └── user_requests.py
+│
+├── .gitignore
+├── main.py
+├── requirements.txt
+└── README.md 
+
+---
+
 ### app/core
 The `core` directory contains essential components that are used throughout the application. For instance, it may include initialization scripts or core functionalities.
 
