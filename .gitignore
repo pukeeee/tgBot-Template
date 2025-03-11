@@ -1,2 +1,3 @@
 /venv
 app/core/utils/config.py
+.DS_Store

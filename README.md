@@ -84,8 +84,8 @@ User-specific keyboards are placed in the `user` directory.
 
 ---
 
-### i18n
-The `i18n` directory is used for internationalization, allowing the bot to support multiple languages.
+### l10n
+The `l10n` directory is used for localization, allowing the bot to support multiple languages.
 
 ---
 
