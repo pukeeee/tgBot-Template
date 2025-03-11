@@ -2,7 +2,7 @@
 # tgBotTemplate
 
 ## Overview
-This repository contains a template for building a Telegram bot using Python. The structure is designed to be modular, scalable, and easy to extend. It includes handlers for both admin and user commands, middleware for additional processing, utilities for configuration, and a database layer for persistent storage.
+This repository contains a template for building a Telegram bot using Python. The structure is designed to be modular, scalable, and easy to extend. It includes handlers for both admin and user commands, middleware for additional processing, utilities for configuration, and a database layer for persistent storage. Perfect for developers looking to create feature-rich Telegram bots quickly and efficiently.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -44,6 +44,7 @@ The `core` directory contains essential components that are used throughout the 
 Middleware functions can be defined in the `middlewares` directory. These functions are executed before the actual handler functions and can be used for tasks like logging, authentication, etc.
 - `__init__.py`: Initialization script for the middleware package.
 - `example.py`: An example middleware function.
+- `i10n_middleware.py`: Middleware for determining the user's language.
 
 ### app/utils
 Utility functions and configurations are stored in the `utils` directory.
@@ -85,7 +86,7 @@ User-specific keyboards are placed in the `user` directory.
 ---
 
 ### l10n
-The `l10n` directory is used for localization, allowing the bot to support multiple languages.
+The `l10n` directory is used for localization, allowing the bot to support multiple languages. It includes a sample localization file en.ftl for English content.
 
 ---
 
